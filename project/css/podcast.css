@@ -1,0 +1,222 @@
+.podcast {
+    background: #D2D5DD;
+    max-width: 1920px;
+    width: 100%;
+    padding-bottom: 94px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.podcast__header {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 94px;
+}
+
+.podcast__list {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.podcast__item {
+    background: #ffffff;
+    max-width: 540px;
+    width: 100%;
+    height: 140px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.podcast__data {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    background: #E6E8EC;
+    padding: 3px 9.5px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+}
+
+.podcast__item:nth-child(odd) {
+    margin-right: 30px;
+}
+
+.podcast__item:not(:nth-child(n+7)) {
+    margin-bottom: 30px;
+}
+
+.podcast__block {
+    margin-left: 142px;
+    margin-top: 40px;
+}
+
+.podcast__time {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.podcast__name {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 4px;
+}
+
+.podcast__author {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #A1A6B4;
+}
+
+.one-item {
+    background-image: url(../assets/podcast/4.jpg);
+}
+
+.two-item {
+    background-image: url(../assets/podcast/6.jpg);
+}
+
+.three-item {
+    background-image: url(../assets/podcast/1.jpg);
+}
+
+.four-item {
+    background-image: url(../assets/podcast/7.jpg);
+}
+
+.five-item {
+    background-image: url(../assets/podcast/8.jpg);
+}
+
+.six-item {
+    background-image: url(../assets/podcast/2.jpg);
+}
+
+.seven-item {
+    background-image: url(../assets/podcast/5.jpg);
+}
+
+.eight-item {
+    background-image: url(../assets/podcast/3.jpg);
+}
+
+@media(max-width:1140px) {
+    .podcast__item {
+        max-width: 397px;
+    }
+    .podcast__header {
+        margin-left: 100px;
+    }
+    .podcast__list {
+        margin-left: 100px;
+    }
+}
+
+@media(max-width:944px) {
+    .podcast__item {
+        max-width: 540px;
+        margin-right: 32px !important;
+    }
+    .podcast__item:nth-child(odd) {
+        margin-right: 0px;
+    }
+    .podcast__item:not(:nth-child(n+8)) {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:674px) {
+    .podcast__item {
+        max-width: 397px;
+    }
+    .podcast__header {
+        margin-left: 32px;
+    }
+    .podcast__list {
+        margin-left: 32px;
+    }
+}
+
+@media(max-width:466px) {
+    .blockTwo__text {
+        font-size: 14px !important;
+    }
+    .podcast__header {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .podcast__list {
+        margin-top: 20px;
+    }
+    .podcast__item {
+        max-width: 256px;
+        height: 185px;
+    }
+    .podcast__data {
+        top: 0px;
+        height: 16px;
+    }
+    .one-item {
+        background-image: url(../assets/podcast/320\ 1.jpg);
+    }
+    .two-item {
+        background-image: url(../assets/podcast/320\ 2.jpg);
+    }
+    .three-item {
+        background-image: url(../assets/podcast/320\ 3.jpg);
+    }
+    .four-item {
+        background-image: url(../assets/podcast/320\ 4.jpg);
+    }
+    .five-item {
+        background-image: url(../assets/podcast/320\ 5.jpg);
+    }
+    .six-item {
+        background-image: url(../assets/podcast/320\ 6.jpg);
+    }
+    .seven-item {
+        background-image: url(../assets/podcast/320\ 7.jpg);
+    }
+    .eight-item {
+        background-image: url(../assets/podcast/320\ 8.jpg);
+    }
+    .podcast__block {
+        margin-left: 16px;
+        margin-top: 102px;
+    }
+    .podcast__time {
+        margin-bottom: 6px;
+    }
+    .podcast__name {
+        margin-bottom: 3px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .podcast__author {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}

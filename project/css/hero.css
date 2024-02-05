@@ -1,0 +1,138 @@
+                            .hero__header {
+                                font-size: 60px;
+                                font-style: italic;
+                                font-weight: 400;
+                                line-height: 60px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                                display: flex;
+                                padding-top: 94px;
+                                max-width: 539px;
+                            }
+
+                            .hero__header div {
+                                font-size: 60px;
+                                font-weight: 700;
+                                line-height: 60px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                                font-style: normal;
+                            }
+
+                            .hero__content {
+                                max-width: 1110px;
+                                width: 100%;
+                            }
+
+                            .hero__hero {
+                                background-image: url(../assets/microphone.jpg);
+                                background-repeat: no-repeat;
+                                background-position: right;
+                                padding-bottom: 40px;
+                            }
+
+                            .hero__content {
+                                max-width: 635px;
+                                padding-top: 14px;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 24px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                            }
+
+                            .hero__button {
+                                margin-top: 45px;
+                                font-size: 20px;
+                                font-weight: 500;
+                                line-height: 20px;
+                                letter-spacing: 0em;
+                                text-align: center;
+                                color: #ffffff;
+                                background: #6D31EE;
+                                border-radius: 40px;
+                                padding: 25px 54px;
+                                transition: all 0.2s ease-in-out;
+                            }
+
+                            .hero__button:hover {
+                                background: #AA9DFA;
+                            }
+
+                            .hero__button:focus {
+                                background: #AA9DFA;
+                                border: 2px solid #4F28A5;
+                                outline: none;
+                            }
+
+                            .hero__button:active {
+                                background: #4F28A5;
+                            }
+
+                            @media(max-width: 1024px) {
+                                .hero__header {
+                                    padding-top: 90px;
+                                }
+                                .hero__hero {
+                                    margin-left: 100px;
+                                    margin-right: 100px;
+                                    background-image: url(../assets/microphone1024.jpg);
+                                }
+                                .hero__content {
+                                    max-width: 539px;
+                                }
+                                .hero__button {
+                                    margin-top: 20px;
+                                }
+                            }
+
+                            @media(max-width:998px) {
+                                .hero__hero {
+                                    background-image: none;
+                                }
+                            }
+
+                            @media(max-width:674px) {
+                                .hero__hero {
+                                    margin-left: 32px;
+                                    margin-right: 32px;
+                                }
+                            }
+
+                            @media(max-width:500px) {
+                                .hero__header {
+                                    font-size: 32px;
+                                    font-style: italic;
+                                    font-weight: 400;
+                                    line-height: 32px;
+                                    letter-spacing: 0em;
+                                    text-align: left;
+                                }
+                                .hero__header div {
+                                    font-size: 32px;
+                                    font-weight: 700;
+                                    line-height: 32px;
+                                    letter-spacing: 0em;
+                                    text-align: left;
+                                }
+                            }
+
+                            @media(max-width:488px) {
+                                .hero__header {
+                                    padding-top: 40px;
+                                }
+                                .hero__hero {
+                                    max-width: 488px;
+                                }
+                                .hero__button {
+                                    margin-top: 20px;
+                                }
+                                .hero__button {
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    line-height: 16px;
+                                    letter-spacing: 0em;
+                                    text-align: center;
+                                    padding: 17px 45px;
+                                }
+                            }
